@@ -6,9 +6,11 @@ public class Example {
 		int n1 = 12; int n2 = 9;
 		System.out.println(addTo(n1, n2));
 		System.out.println(susTo(n1, n2));
+		System.out.println(porTo(n1, n2));
 	}
 	
 	public static int addTo(int a ,int b) {return a+b;}
 	public static int susTo(int a ,int b) {return a-b;}
+	public static int porTo(int a ,int b) {return a*b;}
 
 }
